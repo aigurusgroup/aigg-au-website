@@ -157,7 +157,7 @@ const SellPage = () => {
               </div>
 
               <div>
-                <Label className="text-xs font-medium tracking-wide uppercase text-muted-foreground">Timeframe to Sell</Label>
+                <Label className="text-xs font-medium tracking-wide uppercase text-muted-foreground">Timeline to Sell</Label>
                 <select className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm" value={formData.timeframe} onChange={e => updateField("timeframe", e.target.value)}>
                   <option value="">Select...</option>
                   {timeframeOptions.map(o => <option key={o} value={o}>{o}</option>)}
@@ -170,7 +170,7 @@ const SellPage = () => {
               </div>
 
               <Button variant="premium" size="lg" type="submit" className="w-full sm:w-auto">
-                Start a Confidential Discussion <ArrowRight className="ml-1" size={14} />
+                Submit Confidentially <ArrowRight className="ml-1" size={14} />
               </Button>
             </form>
           </div>
