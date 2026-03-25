@@ -9,7 +9,7 @@ const approaches = [
 
 const OurApproach = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -27,7 +27,7 @@ const OurApproach = () => {
             {approaches.map((item, i) => (
               <div key={i} className="flex items-start gap-4">
                 <div className="w-6 h-6 rounded-full border border-border flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check size={12} className="text-foreground" />
+                  <Check size={12} className="text-primary" />
                 </div>
                 <span className="text-muted-foreground text-sm leading-relaxed">{item}</span>
               </div>

@@ -20,7 +20,7 @@ const pillars = [
 
 const WhatWeDo = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-card">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">What We Do</p>
@@ -30,8 +30,8 @@ const WhatWeDo = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {pillars.map((pillar, i) => (
             <div key={i} className="group">
-              <div className="w-12 h-12 flex items-center justify-center bg-primary/5 border border-border mb-6">
-                <pillar.icon className="text-foreground" size={22} />
+              <div className="w-12 h-12 flex items-center justify-center border border-border mb-6">
+                <pillar.icon className="text-primary" size={22} />
               </div>
               <h3 className="font-display font-bold text-xl mb-3 tracking-tight">{pillar.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{pillar.description}</p>

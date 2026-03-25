@@ -37,22 +37,22 @@ const operators = [
 ];
 
 const expertiseColors: Record<string, string> = {
-  AI: "border-accent-blue/40 text-accent-blue",
-  "AI & Automation": "border-accent-blue/40 text-accent-blue",
-  Engineering: "border-accent-blue/40 text-accent-blue",
-  Data: "border-accent-blue/40 text-accent-blue",
-  Finance: "border-primary/40 text-primary",
-  Governance: "border-primary/40 text-primary",
-  "Due Diligence": "border-primary/40 text-primary",
+  AI: "border-primary/40 text-primary",
+  "AI & Automation": "border-primary/40 text-primary",
+  Engineering: "border-primary/40 text-primary",
+  Data: "border-primary/40 text-primary",
+  Finance: "border-foreground/30 text-foreground/70",
+  Governance: "border-foreground/30 text-foreground/70",
+  "Due Diligence": "border-foreground/30 text-foreground/70",
   Operations: "border-muted-foreground/40 text-muted-foreground",
   Strategy: "border-muted-foreground/40 text-muted-foreground",
-  "M&A": "border-primary/40 text-primary",
-  Acquisitions: "border-primary/40 text-primary",
+  "M&A": "border-foreground/30 text-foreground/70",
+  Acquisitions: "border-foreground/30 text-foreground/70",
 };
 
 const PlatformOperators = () => {
   return (
-    <section className="py-24 bg-muted/30">
+    <section className="py-24 bg-secondary">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-6">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">
@@ -72,7 +72,7 @@ const PlatformOperators = () => {
           {operators.map((op) => (
             <div
               key={op.name}
-              className="border border-border bg-background p-8 flex flex-col"
+              className="border border-border bg-card p-8 flex flex-col"
             >
               <h3 className="font-display font-bold text-lg tracking-tight mb-3">
                 {op.name}
@@ -95,7 +95,7 @@ const PlatformOperators = () => {
                   href={op.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-5 text-xs font-medium tracking-wide uppercase text-accent-blue hover:underline"
+                  className="mt-5 text-xs font-medium tracking-wide uppercase text-primary hover:underline"
                 >
                   LinkedIn →
                 </a>

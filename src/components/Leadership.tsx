@@ -36,7 +36,7 @@ const leaders = {
 };
 
 const LeaderCard = ({ leader }: { leader: typeof leaders.australia[0] }) => (
-  <div className="border border-border p-8">
+  <div className="border border-border bg-card p-8">
     <h3 className="font-display font-bold text-lg tracking-tight mb-1">{leader.name}</h3>
     <p className="text-xs tracking-widest uppercase text-muted-foreground mb-4">{leader.title}</p>
     <p className="text-muted-foreground text-sm leading-relaxed mb-5">{leader.bio}</p>
@@ -50,7 +50,7 @@ const LeaderCard = ({ leader }: { leader: typeof leaders.australia[0] }) => (
 
 const Leadership = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Platform Leadership</p>

@@ -7,7 +7,7 @@ const sectors = [
 
 const FocusAreas = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-card">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Focus Areas</p>
@@ -16,7 +16,7 @@ const FocusAreas = () => {
 
         <div className="grid sm:grid-cols-2 gap-px bg-border">
           {sectors.map((sector, i) => (
-            <div key={i} className="bg-background p-10">
+            <div key={i} className="bg-secondary p-10">
               <h3 className="font-display font-semibold text-lg mb-2 tracking-tight">{sector.name}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{sector.description}</p>
             </div>
