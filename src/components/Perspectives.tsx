@@ -37,7 +37,7 @@ const articles: Article[] = [
   {
     title: "AI-Driven Due Diligence: Beyond the Spreadsheet",
     excerpt: "Integrating AI tools into the acquisition assessment process for faster, deeper insight.",
-    author: "Geouffrey Erasmus",
+    author: "Geoffrey Erasmus",
     market: "United Kingdom",
     topic: "AI Strategy",
     date: "January 2026",
