@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ForOwners = () => {
   return (
-    <section className="py-24 bg-slate-section">
+    <section className="py-24">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">For Business Owners</p>
@@ -34,7 +34,7 @@ const ForOwners = () => {
           </div>
           <Link to="/sell">
             <Button variant="premium" size="lg">
-              Submit Your Business <ArrowRight className="ml-1" size={14} />
+              Start Confidential Discussion <ArrowRight className="ml-1" size={14} />
             </Button>
           </Link>
         </div>

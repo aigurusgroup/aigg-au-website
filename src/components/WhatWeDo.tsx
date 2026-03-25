@@ -8,7 +8,7 @@ const pillars = [
   },
   {
     icon: Cpu,
-    title: "Implement",
+    title: "Optimise",
     description: "We deploy AI and modern operational systems to drive efficiency, reduce cost, and improve customer outcomes.",
   },
   {
@@ -20,11 +20,11 @@ const pillars = [
 
 const WhatWeDo = () => {
   return (
-    <section className="py-24 bg-slate-section">
+    <section className="py-24">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">What We Do</p>
-          <h2 className="text-3xl lg:text-4xl font-display font-bold tracking-tight">Three Pillars of Value Creation</h2>
+          <h2 className="text-3xl lg:text-4xl font-display font-bold tracking-tight">Acquire · Optimise · Scale</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

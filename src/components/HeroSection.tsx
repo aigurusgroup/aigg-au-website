@@ -8,15 +8,15 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-3xl">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-6 animate-fade-in">
-            Private Equity · AI · Acquisitions
+            Acquisitions · AI · Platform
           </p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-display font-bold leading-[1.08] mb-6 animate-fade-in-up tracking-tight">
-            Building Australia's Leading AI-Enabled Business Platform
+            Building AI-Enabled Businesses Across Australia
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-2xl mb-10 animate-fade-in-up leading-relaxed" style={{ animationDelay: "0.1s" }}>
-            We acquire and scale service businesses using AI, operational excellence, and disciplined capital.
+            We acquire, operate, and scale service businesses using AI, operational excellence, and disciplined capital.
           </p>
 
           <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
@@ -35,7 +35,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Minimal decorative line */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-border" />
     </section>
   );
