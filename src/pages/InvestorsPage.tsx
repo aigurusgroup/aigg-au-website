@@ -44,12 +44,12 @@ const InvestorsPage = () => {
 
       <div className="h-px bg-border" />
 
-      <section className="py-20 bg-slate-section">
+      <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
           <h2 className="text-2xl font-display font-bold tracking-tight mb-12">Investment Philosophy</h2>
           <div className="grid sm:grid-cols-2 gap-px bg-border">
             {pillars.map((p, i) => (
-              <div key={i} className="bg-background p-10">
+              <div key={i} className="bg-card p-10">
                 <h3 className="font-display font-semibold text-base mb-2">{p.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{p.desc}</p>
               </div>

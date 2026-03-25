@@ -116,7 +116,7 @@ const PerspectivesPage = () => {
           {/* Articles */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
             {filtered.map((article, i) => (
-              <div key={i} className="bg-background p-8 flex flex-col">
+              <div key={i} className="bg-card p-8 flex flex-col">
                 <div className="flex items-center gap-2 mb-4">
                   <span className="text-[10px] font-medium tracking-[0.2em] uppercase text-muted-foreground">{article.market}</span>
                   <span className="text-muted-foreground/30">·</span>
@@ -153,8 +153,8 @@ const FilterGroup = ({ label, options, value, onChange }: { label: string; optio
           onClick={() => onChange(opt)}
           className={`text-xs px-3 py-1.5 border transition-colors ${
             value === opt
-              ? "border-foreground bg-foreground text-background"
-              : "border-border text-muted-foreground hover:border-foreground/40"
+              ? "border-primary bg-primary text-primary-foreground"
+              : "border-border text-muted-foreground hover:border-primary/40"
           }`}
         >
           {opt}
