@@ -1,5 +1,7 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import HomePlatform from "@/components/HomePlatform";
+import HowPlatformWorks from "@/components/HowPlatformWorks";
 import PlatformOverview from "@/components/PlatformOverview";
 import WhatWeDo from "@/components/WhatWeDo";
 import AustralianFocus from "@/components/AustralianFocus";
