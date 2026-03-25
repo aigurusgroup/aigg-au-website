@@ -8,6 +8,8 @@ import SellPage from "./pages/SellPage";
 import InvestorsPage from "./pages/InvestorsPage";
 import AboutPage from "./pages/AboutPage";
 import PlatformPage from "./pages/PlatformPage";
+import MarketsPage from "./pages/MarketsPage";
+import PerspectivesPage from "./pages/PerspectivesPage";
 import DealSourcesPage from "./pages/DealSourcesPage";
 import NotFound from "./pages/NotFound";
 
@@ -25,6 +27,8 @@ const App = () => (
           <Route path="/investors" element={<InvestorsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/platform" element={<PlatformPage />} />
+          <Route path="/markets" element={<MarketsPage />} />
+          <Route path="/perspectives" element={<PerspectivesPage />} />
           <Route path="/deal-sources" element={<DealSourcesPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
