@@ -37,22 +37,22 @@ const operators = [
 ];
 
 const expertiseColors: Record<string, string> = {
-  AI: "border-primary/40 text-primary",
-  "AI & Automation": "border-primary/40 text-primary",
-  Engineering: "border-primary/40 text-primary",
-  Data: "border-primary/40 text-primary",
-  Finance: "border-foreground/30 text-foreground/70",
-  Governance: "border-foreground/30 text-foreground/70",
-  "Due Diligence": "border-foreground/30 text-foreground/70",
-  Operations: "border-muted-foreground/40 text-muted-foreground",
-  Strategy: "border-muted-foreground/40 text-muted-foreground",
-  "M&A": "border-foreground/30 text-foreground/70",
-  Acquisitions: "border-foreground/30 text-foreground/70",
+  AI: "border-primary/30 text-primary",
+  "AI & Automation": "border-primary/30 text-primary",
+  Engineering: "border-primary/30 text-primary",
+  Data: "border-primary/30 text-primary",
+  Finance: "border-foreground/15 text-foreground/70",
+  Governance: "border-foreground/15 text-foreground/70",
+  "Due Diligence": "border-foreground/15 text-foreground/70",
+  Operations: "border-muted-foreground/30 text-muted-foreground",
+  Strategy: "border-muted-foreground/30 text-muted-foreground",
+  "M&A": "border-foreground/15 text-foreground/70",
+  Acquisitions: "border-foreground/15 text-foreground/70",
 };
 
 const PlatformOperators = () => {
   return (
-    <section className="py-24 bg-secondary">
+    <section className="py-24 bg-card">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-6">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">
@@ -72,7 +72,7 @@ const PlatformOperators = () => {
           {operators.map((op) => (
             <div
               key={op.name}
-              className="border border-border bg-card p-8 flex flex-col"
+              className="border border-border bg-background p-8 flex flex-col"
             >
               <h3 className="font-display font-bold text-lg tracking-tight mb-3">
                 {op.name}

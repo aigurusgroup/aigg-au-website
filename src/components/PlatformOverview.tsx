@@ -5,7 +5,7 @@ const markets = [
 
 const PlatformOverview = () => {
   return (
-    <section className="py-24 bg-secondary">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">The AIGG Platform</p>

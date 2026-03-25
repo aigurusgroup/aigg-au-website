@@ -16,7 +16,7 @@ const FocusAreas = () => {
 
         <div className="grid sm:grid-cols-2 gap-px bg-border">
           {sectors.map((sector, i) => (
-            <div key={i} className="bg-secondary p-10">
+            <div key={i} className="bg-background p-10">
               <h3 className="font-display font-semibold text-lg mb-2 tracking-tight">{sector.name}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{sector.description}</p>
             </div>

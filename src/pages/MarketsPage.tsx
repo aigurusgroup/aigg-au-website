@@ -2,22 +2,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const markets = [
-  {
-    name: "Australia",
-    hq: "Brisbane, QLD",
-    lead: "Lee Robinson",
-    sectors: ["Accountancy", "Conveyancing / Legal", "Surveying", "RTO / Education"],
-    description:
-      "AIGG Australia operates as a core market with full capability across acquisitions, strategy, AI systems, and execution. Focused on acquiring and scaling service businesses across key sectors in the Australian economy.",
-  },
-  {
-    name: "United Kingdom",
-    hq: "London, UK",
-    lead: "Chris Robinson",
-    sectors: ["Professional Services", "Property Services", "Home Improvement", "Technology Services"],
-    description:
-      "AIGG United Kingdom operates as a core market with full capability across acquisitions, strategy, AI systems, and execution. Building scale across fragmented UK service verticals through disciplined buy-and-build.",
-  },
+  { name: "Australia", hq: "Brisbane, QLD", lead: "Lee Robinson", sectors: ["Accountancy", "Conveyancing / Legal", "Surveying", "RTO / Education"], description: "AIGG Australia operates as a core market with full capability across acquisitions, strategy, AI systems, and execution. Focused on acquiring and scaling service businesses across key sectors in the Australian economy." },
+  { name: "United Kingdom", hq: "London, UK", lead: "Chris Robinson", sectors: ["Professional Services", "Property Services", "Home Improvement", "Technology Services"], description: "AIGG United Kingdom operates as a core market with full capability across acquisitions, strategy, AI systems, and execution. Building scale across fragmented UK service verticals through disciplined buy-and-build." },
 ];
 
 const MarketsPage = () => {
@@ -25,7 +11,7 @@ const MarketsPage = () => {
     <div className="min-h-screen">
       <Navbar />
 
-      <section className="pt-28 pb-20">
+      <section className="pt-28 pb-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-2xl">
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Core Markets</p>
@@ -39,7 +25,7 @@ const MarketsPage = () => {
 
       <div className="h-px bg-border" />
 
-      <section className="py-20">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <p className="text-muted-foreground max-w-3xl mb-16 leading-relaxed">
             Each market develops and retains its own intellectual property and operating expertise. There is no hierarchy between markets — each functions as a core component of the AIGG platform.
@@ -56,9 +42,7 @@ const MarketsPage = () => {
                   <span className="text-[10px] font-medium tracking-[0.2em] uppercase text-muted-foreground block mb-3">Target Sectors</span>
                   <div className="flex flex-wrap gap-2">
                     {market.sectors.map((s) => (
-                      <span key={s} className="text-[10px] font-medium tracking-wide uppercase text-muted-foreground border border-border px-2.5 py-1">
-                        {s}
-                      </span>
+                      <span key={s} className="text-[10px] font-medium tracking-wide uppercase text-muted-foreground border border-border px-2.5 py-1">{s}</span>
                     ))}
                   </div>
                 </div>
