@@ -22,7 +22,7 @@ const AboutPage = () => {
       <div className="h-px bg-border" />
 
       {/* Founder Story */}
-      <section className="py-20 bg-slate-section">
+      <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
@@ -58,7 +58,7 @@ const AboutPage = () => {
       </section>
 
       {/* Why AI + Acquisitions */}
-      <section className="py-20">
+      <section className="py-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8 max-w-3xl">
           <h2 className="text-2xl font-display font-bold tracking-tight mb-6">Why AI + Acquisitions</h2>
           <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
@@ -76,13 +76,13 @@ const AboutPage = () => {
       </section>
 
       {/* Long-term Vision */}
-      <section className="py-20 bg-navy text-primary-foreground">
+      <section className="py-20 bg-navy">
         <div className="container mx-auto px-4 lg:px-8 max-w-3xl text-center">
-          <p className="text-xs font-medium tracking-[0.3em] uppercase text-primary-foreground/50 mb-3">Long-Term Vision</p>
+          <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Long-Term Vision</p>
           <h2 className="text-2xl lg:text-3xl font-display font-bold tracking-tight mb-6">
             Building a multi-vertical, AI-enabled services platform — starting in Queensland, scaling nationally.
           </h2>
-          <p className="text-primary-foreground/50 text-sm leading-relaxed">
+          <p className="text-muted-foreground text-sm leading-relaxed">
             We see a future where Australia's best service businesses are connected through shared technology,
             shared services, and a shared commitment to excellence.
           </p>

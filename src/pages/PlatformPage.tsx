@@ -42,11 +42,11 @@ const PlatformPage = () => {
       <div className="h-px bg-border" />
 
       {/* Stages */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-border">
             {stages.map((stage, i) => (
-              <div key={stage} className="bg-background p-8 text-center">
+              <div key={stage} className="bg-card p-8 text-center">
                 <span className="font-display text-muted-foreground/20 font-bold text-4xl block mb-2">0{i + 1}</span>
                 <h3 className="font-display font-bold text-lg tracking-tight">{stage}</h3>
               </div>

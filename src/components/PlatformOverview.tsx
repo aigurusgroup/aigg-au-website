@@ -5,7 +5,7 @@ const markets = [
 
 const PlatformOverview = () => {
   return (
-    <section className="py-24 bg-slate-section">
+    <section className="py-24 bg-secondary">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-16">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">The AIGG Platform</p>
@@ -17,7 +17,7 @@ const PlatformOverview = () => {
 
         <div className="grid sm:grid-cols-2 gap-px bg-border">
           {markets.map((market) => (
-            <div key={market.name} className="bg-background p-10">
+            <div key={market.name} className="bg-card p-10">
               <span className="text-[10px] font-medium tracking-[0.3em] uppercase text-muted-foreground">{market.status}</span>
               <h3 className="font-display font-bold text-2xl mt-2 mb-1 tracking-tight">{market.name}</h3>
               <p className="text-muted-foreground text-sm">{market.location}</p>

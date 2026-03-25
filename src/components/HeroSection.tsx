@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center pt-16">
+    <section className="relative min-h-[90vh] flex items-center pt-16 bg-background">
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-3xl">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-6 animate-fade-in">
             Acquisitions · AI · Platform
           </p>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-display font-bold leading-[1.08] mb-6 animate-fade-in-up tracking-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-display font-bold leading-[1.08] mb-6 animate-fade-in-up tracking-tight text-foreground">
             Building AI-Enabled Businesses Across Australia
           </h1>
 

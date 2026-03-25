@@ -47,7 +47,7 @@ const MarketsPage = () => {
 
           <div className="grid lg:grid-cols-2 gap-px bg-border">
             {markets.map((market) => (
-              <div key={market.name} className="bg-background p-10 lg:p-12">
+              <div key={market.name} className="bg-card p-10 lg:p-12">
                 <span className="text-[10px] font-medium tracking-[0.3em] uppercase text-muted-foreground">Core Market</span>
                 <h2 className="font-display font-bold text-3xl mt-2 mb-1 tracking-tight">{market.name}</h2>
                 <p className="text-sm text-muted-foreground mb-6">{market.hq} · Led by {market.lead}</p>

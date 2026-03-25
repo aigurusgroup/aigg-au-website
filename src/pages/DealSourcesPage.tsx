@@ -40,22 +40,22 @@ const DealSourcesPage = () => {
 
       <div className="h-px bg-border" />
 
-      <section className="py-20 bg-slate-section">
+      <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 border border-border bg-background">
+            <div className="p-8 border border-border bg-card">
               <h3 className="font-display font-semibold text-sm mb-2">We Welcome Introductions</h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
                 Whether you're a broker with a mandate, an accountant with a retiring client, or an advisor exploring options — we want to hear from you.
               </p>
             </div>
-            <div className="p-8 border border-border bg-background">
+            <div className="p-8 border border-border bg-card">
               <h3 className="font-display font-semibold text-sm mb-2">Fast Response</h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
                 We respond to every opportunity within 48 hours and provide clear feedback on fit and interest.
               </p>
             </div>
-            <div className="p-8 border border-border bg-background">
+            <div className="p-8 border border-border bg-card">
               <h3 className="font-display font-semibold text-sm mb-2">Professional Process</h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
                 NDAs on request. Structured due diligence. Clean deal execution. Your client's legacy is safe with us.

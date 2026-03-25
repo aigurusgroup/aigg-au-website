@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HomeDealSources = () => {
   return (
-    <section className="py-24 bg-slate-section">
+    <section className="py-24 bg-card">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">For Brokers & Advisors</p>
