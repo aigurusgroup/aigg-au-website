@@ -7,7 +7,7 @@ const operators = [
     linkedin: "https://www.linkedin.com/in/chris-robinson-979940b/",
   },
   {
-    name: "Geouffrey Erasmus",
+    name: "Geoffrey Erasmus",
     expertise: ["AI", "Engineering", "Data"],
     description:
       "Technology expert with 20+ years in enterprise software, AI-driven automation, and data engineering. Drives product innovation and technical excellence across platform infrastructure and delivery.",

@@ -1,3 +1,5 @@
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { useState } from "react";
 
 type Article = {
@@ -58,13 +60,21 @@ const articles: Article[] = [
     topic: "Market",
     date: "January 2026",
   },
+  {
+    title: "Operator-Led Scaling in Property Services",
+    excerpt: "How hands-on operational experience drives better acquisition outcomes and integration success.",
+    author: "Michael Bradley",
+    market: "United Kingdom",
+    topic: "Operations",
+    date: "March 2026",
+  },
 ];
 
 const allMarkets = ["All", "Australia", "United Kingdom"] as const;
 const allTopics = ["All", "AI Strategy", "Acquisitions", "Operations", "Market"] as const;
 const allAuthors = ["All", "Lee Robinson", "Chris Robinson", "Geoffrey Erasmus", "Loretto Burke", "Michael Bradley"] as const;
 
-const Perspectives = () => {
+const PerspectivesPage = () => {
   const [market, setMarket] = useState<string>("All");
   const [topic, setTopic] = useState<string>("All");
   const [author, setAuthor] = useState<string>("All");
@@ -77,44 +87,59 @@ const Perspectives = () => {
   });
 
   return (
-    <section className="py-24 bg-slate-section">
-      <div className="container mx-auto px-4 lg:px-8">
-        <div className="mb-12">
-          <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Perspectives</p>
-          <h2 className="text-3xl lg:text-4xl font-display font-bold tracking-tight">Insights From the Platform</h2>
-        </div>
+    <div className="min-h-screen">
+      <Navbar />
 
-        {/* Filters */}
-        <div className="flex flex-wrap gap-6 mb-12">
-          <FilterGroup label="Market" options={allMarkets} value={market} onChange={setMarket} />
-          <FilterGroup label="Topic" options={allTopics} value={topic} onChange={setTopic} />
-          <FilterGroup label="Author" options={allAuthors} value={author} onChange={setAuthor} />
+      <section className="pt-28 pb-20">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="max-w-2xl">
+            <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Perspectives</p>
+            <h1 className="text-4xl lg:text-5xl font-display font-bold tracking-tight mb-6">Insights From the Platform</h1>
+            <p className="text-muted-foreground leading-relaxed">
+              Thought leadership and market commentary from operators, strategists, and technologists across the AIGG platform.
+            </p>
+          </div>
         </div>
+      </section>
 
-        {/* Articles */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
-          {filtered.map((article, i) => (
-            <div key={i} className="bg-background p-8 flex flex-col">
-              <div className="flex items-center gap-2 mb-4">
-                <span className="text-[10px] font-medium tracking-[0.2em] uppercase text-muted-foreground">{article.market}</span>
-                <span className="text-muted-foreground/30">·</span>
-                <span className="text-[10px] font-medium tracking-[0.2em] uppercase text-muted-foreground">{article.topic}</span>
+      <div className="h-px bg-border" />
+
+      <section className="py-20">
+        <div className="container mx-auto px-4 lg:px-8">
+          {/* Filters */}
+          <div className="flex flex-wrap gap-6 mb-12">
+            <FilterGroup label="Market" options={allMarkets} value={market} onChange={setMarket} />
+            <FilterGroup label="Topic" options={allTopics} value={topic} onChange={setTopic} />
+            <FilterGroup label="Author" options={allAuthors} value={author} onChange={setAuthor} />
+          </div>
+
+          {/* Articles */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
+            {filtered.map((article, i) => (
+              <div key={i} className="bg-background p-8 flex flex-col">
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="text-[10px] font-medium tracking-[0.2em] uppercase text-muted-foreground">{article.market}</span>
+                  <span className="text-muted-foreground/30">·</span>
+                  <span className="text-[10px] font-medium tracking-[0.2em] uppercase text-muted-foreground">{article.topic}</span>
+                </div>
+                <h3 className="font-display font-semibold text-base tracking-tight mb-2">{article.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1">{article.excerpt}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-xs text-muted-foreground">{article.author}</span>
+                  <span className="text-xs text-muted-foreground/50">{article.date}</span>
+                </div>
               </div>
-              <h3 className="font-display font-semibold text-base tracking-tight mb-2">{article.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-4 flex-1">{article.excerpt}</p>
-              <div className="flex items-center justify-between">
-                <span className="text-xs text-muted-foreground">{article.author}</span>
-                <span className="text-xs text-muted-foreground/50">{article.date}</span>
-              </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
 
-        {filtered.length === 0 && (
-          <p className="text-center text-muted-foreground text-sm py-16">No articles match the selected filters.</p>
-        )}
-      </div>
-    </section>
+          {filtered.length === 0 && (
+            <p className="text-center text-muted-foreground text-sm py-16">No articles match the selected filters.</p>
+          )}
+        </div>
+      </section>
+
+      <Footer />
+    </div>
   );
 };
 
@@ -139,4 +164,4 @@ const FilterGroup = ({ label, options, value, onChange }: { label: string; optio
   </div>
 );
 
-export default Perspectives;
+export default PerspectivesPage;

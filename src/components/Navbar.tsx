@@ -4,11 +4,12 @@ import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 const navLinks = [
-  { label: "About", href: "/about" },
   { label: "Platform", href: "/platform" },
+  { label: "Markets", href: "/markets" },
+  { label: "Perspectives", href: "/perspectives" },
   { label: "Sell Your Business", href: "/sell" },
   { label: "Investors", href: "/investors" },
-  { label: "Deal Sources", href: "/deal-sources" },
+  { label: "About", href: "/about" },
 ];
 
 const Navbar = () => {
@@ -38,8 +39,8 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <Link to="/sell">
-            <Button variant="nav" size="sm">Get Started</Button>
+          <Link to="/deal-sources">
+            <Button variant="nav" size="sm">Submit Opportunity</Button>
           </Link>
         </div>
 
@@ -62,8 +63,8 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <Link to="/sell" onClick={() => setIsOpen(false)}>
-            <Button variant="nav" size="sm" className="mt-2 w-full">Get Started</Button>
+          <Link to="/deal-sources" onClick={() => setIsOpen(false)}>
+            <Button variant="nav" size="sm" className="mt-2 w-full">Submit Opportunity</Button>
           </Link>
         </div>
       )}
