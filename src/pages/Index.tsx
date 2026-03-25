@@ -11,6 +11,7 @@ import ForOwners from "@/components/ForOwners";
 import ForInvestors from "@/components/ForInvestors";
 import HomeDealSources from "@/components/HomeDealSources";
 import Leadership from "@/components/Leadership";
+import PlatformOperators from "@/components/PlatformOperators";
 import Perspectives from "@/components/Perspectives";
 import PlatformVision from "@/components/PlatformVision";
 import Footer from "@/components/Footer";
