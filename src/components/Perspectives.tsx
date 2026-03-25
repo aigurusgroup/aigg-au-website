@@ -62,7 +62,7 @@ const articles: Article[] = [
 
 const allMarkets = ["All", "Australia", "United Kingdom"] as const;
 const allTopics = ["All", "AI Strategy", "Acquisitions", "Operations", "Market"] as const;
-const allAuthors = ["All", "Lee Robinson", "Chris Robinson", "Geouffrey Erasmus", "Loretto Burke"] as const;
+const allAuthors = ["All", "Lee Robinson", "Chris Robinson", "Geoffrey Erasmus", "Loretto Burke", "Michael Bradley"] as const;
 
 const Perspectives = () => {
   const [market, setMarket] = useState<string>("All");

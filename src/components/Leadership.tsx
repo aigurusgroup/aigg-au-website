@@ -15,7 +15,7 @@ const leaders = {
       expertise: ["Technology Ventures & Exits", "AI & Automation Strategy", "Business Acquisition", "Operational Transformation"],
     },
     {
-      name: "Geouffrey Erasmus",
+      name: "Geoffrey Erasmus",
       title: "Founder & CTO",
       bio: "Technology expert with over 20 years of experience in software development, leading technical teams, and delivering enterprise solutions. Deep expertise in business intelligence, data warehousing, and AI-driven automation.",
       expertise: ["Enterprise Software Architecture", "AI & Business Intelligence", "Technical Leadership", "Data Engineering"],
