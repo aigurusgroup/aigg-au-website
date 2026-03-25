@@ -32,6 +32,7 @@ const Index = () => {
       <ForInvestors />
       <HomeDealSources />
       <Leadership />
+      <PlatformOperators />
       <Perspectives />
       <PlatformVision />
       <Footer />
