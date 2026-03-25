@@ -1,25 +1,53 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
-    <footer className="bg-navy py-12">
+    <footer className="bg-navy py-16">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-sm">AI</span>
+        <div className="grid md:grid-cols-4 gap-10 mb-12">
+          <div>
+            <span className="font-display font-bold text-lg text-primary-foreground tracking-tight">AIGG</span>
+            <p className="text-primary-foreground/50 text-sm mt-3 leading-relaxed">
+              Building Australia's leading AI-enabled business platform.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="text-primary-foreground/80 font-medium text-xs tracking-widest uppercase mb-4">Company</h4>
+            <div className="flex flex-col gap-2">
+              <Link to="/about" className="text-primary-foreground/50 hover:text-primary-foreground text-sm transition-colors">About</Link>
+              <Link to="/platform" className="text-primary-foreground/50 hover:text-primary-foreground text-sm transition-colors">Platform</Link>
+              <Link to="/investors" className="text-primary-foreground/50 hover:text-primary-foreground text-sm transition-colors">Investors</Link>
             </div>
-            <span className="font-display font-bold text-primary-foreground">AI Gurus Group Australia</span>
           </div>
 
-          <div className="flex gap-6 text-sm">
-            <a href="#services" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">Services</a>
-            <a href="#about" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">About</a>
-            <a href="#team" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">Team</a>
-            <a href="#contact" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">Contact</a>
+          <div>
+            <h4 className="text-primary-foreground/80 font-medium text-xs tracking-widest uppercase mb-4">Opportunities</h4>
+            <div className="flex flex-col gap-2">
+              <Link to="/sell" className="text-primary-foreground/50 hover:text-primary-foreground text-sm transition-colors">Sell Your Business</Link>
+              <Link to="/deal-sources" className="text-primary-foreground/50 hover:text-primary-foreground text-sm transition-colors">Deal Sources</Link>
+            </div>
           </div>
 
-          <p className="text-primary-foreground/40 text-xs">
-            © {new Date().getFullYear()} AI Gurus Group Australia. All rights reserved.
+          <div>
+            <h4 className="text-primary-foreground/80 font-medium text-xs tracking-widest uppercase mb-4">Contact</h4>
+            <div className="flex flex-col gap-2">
+              <span className="text-primary-foreground/50 text-sm">Brisbane, Queensland</span>
+              <span className="text-primary-foreground/50 text-sm">Australia</span>
+              <a href="mailto:info@aigg.com.au" className="text-primary-foreground/50 hover:text-primary-foreground text-sm transition-colors">info@aigg.com.au</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-primary-foreground/30 text-xs">
+            © {new Date().getFullYear()} AI Gurus Group Australia Pty Ltd. All rights reserved.
           </p>
+          <div className="flex gap-6 text-xs">
+            <a href="#" className="text-primary-foreground/30 hover:text-primary-foreground/60 transition-colors">Privacy</a>
+            <a href="#" className="text-primary-foreground/30 hover:text-primary-foreground/60 transition-colors">Terms</a>
+            <a href="#" className="text-primary-foreground/30 hover:text-primary-foreground/60 transition-colors">LinkedIn</a>
+          </div>
         </div>
       </div>
     </footer>
