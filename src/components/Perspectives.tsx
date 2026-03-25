@@ -10,54 +10,12 @@ type Article = {
 };
 
 const articles: Article[] = [
-  {
-    title: "Why AI Matters for Service Business Acquisitions",
-    excerpt: "How artificial intelligence is reshaping the economics of buy-and-build strategies in professional services.",
-    author: "Lee Robinson",
-    market: "Australia",
-    topic: "AI Strategy",
-    date: "March 2026",
-  },
-  {
-    title: "The Buy-and-Build Playbook for Australian SMEs",
-    excerpt: "Lessons from executing a disciplined acquisition strategy across fragmented service sectors.",
-    author: "Lee Robinson",
-    market: "Australia",
-    topic: "Acquisitions",
-    date: "February 2026",
-  },
-  {
-    title: "Scaling Through Operational Excellence",
-    excerpt: "How centralised operations and shared services create compounding value across a portfolio.",
-    author: "Chris Robinson",
-    market: "United Kingdom",
-    topic: "Operations",
-    date: "March 2026",
-  },
-  {
-    title: "AI-Driven Due Diligence: Beyond the Spreadsheet",
-    excerpt: "Integrating AI tools into the acquisition assessment process for faster, deeper insight.",
-    author: "Geoffrey Erasmus",
-    market: "United Kingdom",
-    topic: "AI Strategy",
-    date: "January 2026",
-  },
-  {
-    title: "Financial Governance in a Multi-Entity Portfolio",
-    excerpt: "Building scalable financial controls as the platform grows across markets and verticals.",
-    author: "Loretto Burke",
-    market: "United Kingdom",
-    topic: "Operations",
-    date: "February 2026",
-  },
-  {
-    title: "Market Commentary: Australian Professional Services",
-    excerpt: "An overview of valuation trends and acquisition opportunities in Australian accountancy and legal services.",
-    author: "Lee Robinson",
-    market: "Australia",
-    topic: "Market",
-    date: "January 2026",
-  },
+  { title: "Why AI Matters for Service Business Acquisitions", excerpt: "How artificial intelligence is reshaping the economics of buy-and-build strategies in professional services.", author: "Lee Robinson", market: "Australia", topic: "AI Strategy", date: "March 2026" },
+  { title: "The Buy-and-Build Playbook for Australian SMEs", excerpt: "Lessons from executing a disciplined acquisition strategy across fragmented service sectors.", author: "Lee Robinson", market: "Australia", topic: "Acquisitions", date: "February 2026" },
+  { title: "Scaling Through Operational Excellence", excerpt: "How centralised operations and shared services create compounding value across a portfolio.", author: "Chris Robinson", market: "United Kingdom", topic: "Operations", date: "March 2026" },
+  { title: "AI-Driven Due Diligence: Beyond the Spreadsheet", excerpt: "Integrating AI tools into the acquisition assessment process for faster, deeper insight.", author: "Geoffrey Erasmus", market: "United Kingdom", topic: "AI Strategy", date: "January 2026" },
+  { title: "Financial Governance in a Multi-Entity Portfolio", excerpt: "Building scalable financial controls as the platform grows across markets and verticals.", author: "Loretto Burke", market: "United Kingdom", topic: "Operations", date: "February 2026" },
+  { title: "Market Commentary: Australian Professional Services", excerpt: "An overview of valuation trends and acquisition opportunities in Australian accountancy and legal services.", author: "Lee Robinson", market: "Australia", topic: "Market", date: "January 2026" },
 ];
 
 const allMarkets = ["All", "Australia", "United Kingdom"] as const;
@@ -77,21 +35,19 @@ const Perspectives = () => {
   });
 
   return (
-    <section className="py-24 bg-secondary">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-12">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Perspectives</p>
           <h2 className="text-3xl lg:text-4xl font-display font-bold tracking-tight">Insights From the Platform</h2>
         </div>
 
-        {/* Filters */}
         <div className="flex flex-wrap gap-6 mb-12">
           <FilterGroup label="Market" options={allMarkets} value={market} onChange={setMarket} />
           <FilterGroup label="Topic" options={allTopics} value={topic} onChange={setTopic} />
           <FilterGroup label="Author" options={allAuthors} value={author} onChange={setAuthor} />
         </div>
 
-        {/* Articles */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-border">
           {filtered.map((article, i) => (
             <div key={i} className="bg-card p-8 flex flex-col">
@@ -128,7 +84,7 @@ const FilterGroup = ({ label, options, value, onChange }: { label: string; optio
           onClick={() => onChange(opt)}
           className={`text-xs px-3 py-1.5 border transition-colors ${
             value === opt
-              ? "border-primary bg-primary text-primary-foreground"
+              ? "border-primary bg-primary text-white"
               : "border-border text-muted-foreground hover:border-primary/40"
           }`}
         >

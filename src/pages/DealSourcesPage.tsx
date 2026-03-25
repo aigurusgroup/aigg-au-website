@@ -25,7 +25,7 @@ const DealSourcesPage = () => {
     <div className="min-h-screen">
       <Navbar />
 
-      <section className="pt-28 pb-20">
+      <section className="pt-28 pb-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-2xl">
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Deal Sources & Partners</p>
@@ -40,7 +40,7 @@ const DealSourcesPage = () => {
 
       <div className="h-px bg-border" />
 
-      <section className="py-20 bg-secondary">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 border border-border bg-card">
@@ -65,7 +65,7 @@ const DealSourcesPage = () => {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-md mx-auto">
             <h2 className="text-2xl font-display font-bold tracking-tight mb-2">Submit an Opportunity</h2>

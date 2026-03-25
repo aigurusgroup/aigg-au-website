@@ -1,6 +1,6 @@
 const AustralianFocus = () => {
   return (
-    <section className="py-24 bg-secondary">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-2xl">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Australian Market</p>

@@ -29,7 +29,7 @@ const InvestorsPage = () => {
     <div className="min-h-screen">
       <Navbar />
 
-      <section className="pt-28 pb-20">
+      <section className="pt-28 pb-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-2xl">
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Investors</p>
@@ -44,7 +44,7 @@ const InvestorsPage = () => {
 
       <div className="h-px bg-border" />
 
-      <section className="py-20 bg-secondary">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <h2 className="text-2xl font-display font-bold tracking-tight mb-12">Investment Philosophy</h2>
           <div className="grid sm:grid-cols-2 gap-px bg-border">
@@ -58,7 +58,7 @@ const InvestorsPage = () => {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-md mx-auto text-center">
             <h2 className="text-2xl font-display font-bold tracking-tight mb-2">Request Investor Pack</h2>

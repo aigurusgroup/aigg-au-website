@@ -57,7 +57,6 @@ const Leadership = () => {
           <h2 className="text-3xl lg:text-4xl font-display font-bold tracking-tight">Leadership Across Markets</h2>
         </div>
 
-        {/* Australia */}
         <div className="mb-12">
           <h3 className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-6 border-b border-border pb-3">Australia</h3>
           <div className="grid lg:grid-cols-2 gap-6">
@@ -65,7 +64,6 @@ const Leadership = () => {
           </div>
         </div>
 
-        {/* United Kingdom */}
         <div>
           <h3 className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-6 border-b border-border pb-3">United Kingdom</h3>
           <div className="grid lg:grid-cols-2 gap-6">

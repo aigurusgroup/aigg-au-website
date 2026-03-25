@@ -46,8 +46,7 @@ const SellPage = () => {
     <div className="min-h-screen">
       <Navbar />
 
-      {/* Hero */}
-      <section className="pt-28 pb-20">
+      <section className="pt-28 pb-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-2xl">
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">For Business Owners</p>
@@ -62,8 +61,7 @@ const SellPage = () => {
 
       <div className="h-px bg-border" />
 
-      {/* Why Sell */}
-      <section className="py-20 bg-secondary">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
@@ -98,8 +96,7 @@ const SellPage = () => {
         </div>
       </section>
 
-      {/* Form */}
-      <section className="py-20">
+      <section className="py-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-2xl font-display font-bold tracking-tight mb-2">Start a Confidential Discussion</h2>
@@ -131,14 +128,14 @@ const SellPage = () => {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <Label className="text-xs font-medium tracking-wide uppercase text-muted-foreground">Revenue Range</Label>
-                  <select className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm text-foreground" value={formData.revenue} onChange={e => updateField("revenue", e.target.value)}>
+                  <select className="mt-1.5 w-full h-10 rounded-md border border-input bg-card px-3 text-sm text-foreground" value={formData.revenue} onChange={e => updateField("revenue", e.target.value)}>
                     <option value="">Select...</option>
                     {revenueOptions.map(o => <option key={o} value={o}>{o}</option>)}
                   </select>
                 </div>
                 <div>
                   <Label className="text-xs font-medium tracking-wide uppercase text-muted-foreground">EBITDA Range</Label>
-                  <select className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm text-foreground" value={formData.ebitda} onChange={e => updateField("ebitda", e.target.value)}>
+                  <select className="mt-1.5 w-full h-10 rounded-md border border-input bg-card px-3 text-sm text-foreground" value={formData.ebitda} onChange={e => updateField("ebitda", e.target.value)}>
                     <option value="">Select...</option>
                     {ebitdaOptions.map(o => <option key={o} value={o}>{o}</option>)}
                   </select>
@@ -158,7 +155,7 @@ const SellPage = () => {
 
               <div>
                 <Label className="text-xs font-medium tracking-wide uppercase text-muted-foreground">Timeline to Sell</Label>
-                <select className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm text-foreground" value={formData.timeframe} onChange={e => updateField("timeframe", e.target.value)}>
+                <select className="mt-1.5 w-full h-10 rounded-md border border-input bg-card px-3 text-sm text-foreground" value={formData.timeframe} onChange={e => updateField("timeframe", e.target.value)}>
                   <option value="">Select...</option>
                   {timeframeOptions.map(o => <option key={o} value={o}>{o}</option>)}
                 </select>
