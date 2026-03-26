@@ -15,7 +15,7 @@ const operators = [
   },
   {
     name: "Lee Robinson",
-    expertise: ["Finance", "Operations", "M&A"],
+    expertise: ["Strategy", "Operations", "M&A"],
     description:
       "Over 20 years across finance, operations, and business acquisitions spanning the UK and Australia. Deep expertise in buy-and-build execution and roll-up strategy.",
     linkedin: undefined,
