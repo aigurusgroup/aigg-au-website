@@ -1,7 +1,7 @@
 const operators = [
   {
     name: "Chris Robinson",
-    expertise: ["AI & Automation", "Strategy", "Operations"],
+    expertise: ["AI & Automation", "Strategy", "Acquisitions"],
     description:
       "Serial entrepreneur with 17 successful ventures across software, AI, and customer-experience technology. Combines deep operational expertise with cutting-edge AI innovation to drive platform-wide transformation.",
     linkedin: "https://www.linkedin.com/in/chris-robinson-979940b/",
