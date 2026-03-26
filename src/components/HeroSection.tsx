@@ -12,7 +12,7 @@ const HeroSection = () => {
           </p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-display font-bold leading-[1.08] mb-6 animate-fade-in-up tracking-tight text-foreground">
-            Building AI-Enabled Businesses Across Australia
+            Acquiring and Building AI-Enabled Businesses Across Australia
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-2xl mb-10 animate-fade-in-up leading-relaxed" style={{ animationDelay: "0.1s" }}>
