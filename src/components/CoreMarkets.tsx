@@ -16,11 +16,11 @@ const CoreMarkets = () => {
         <div className="grid sm:grid-cols-2 gap-px max-w-2xl mx-auto">
           <div className="bg-navy-mid p-10 text-center">
             <h3 className="font-display font-bold text-2xl mb-1 tracking-tight text-white">Australia</h3>
-            <p className="text-white/50 text-sm">Brisbane, Queensland</p>
+            <p className="text-white/50 text-sm">National</p>
           </div>
           <div className="bg-navy-mid p-10 text-center">
             <h3 className="font-display font-bold text-2xl mb-1 tracking-tight text-white">United Kingdom</h3>
-            <p className="text-white/50 text-sm">London, England</p>
+            <p className="text-white/50 text-sm">National</p>
           </div>
         </div>
       </div>

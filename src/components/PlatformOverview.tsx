@@ -1,6 +1,6 @@
 const markets = [
-  { name: "Australia", location: "Brisbane, QLD", status: "Core Market" },
-  { name: "United Kingdom", location: "London, UK", status: "Core Market" },
+  { name: "Australia", location: "National", status: "Core Market" },
+  { name: "United Kingdom", location: "National", status: "Core Market" },
 ];
 
 const PlatformOverview = () => {
