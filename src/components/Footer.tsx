@@ -32,7 +32,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white/80 font-medium text-xs tracking-widest uppercase mb-4">Contact</h4>
             <div className="flex flex-col gap-2">
-              <span className="text-white/50 text-sm">Brisbane, Queensland</span>
+              <span className="text-white/50 text-sm">National</span>
               <span className="text-white/50 text-sm">Australia</span>
               <a href="mailto:info@aigg.com.au" className="text-white/50 hover:text-white text-sm transition-colors">info@aigg.com.au</a>
             </div>
