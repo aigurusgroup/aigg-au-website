@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div>
-            <span className="font-display font-bold text-lg text-white tracking-tight">AIGG</span>
+            <img src={logo} alt="AI Gurus" className="h-10" />
             <p className="text-white/50 text-sm mt-3 leading-relaxed">
               Building Australia's leading AI-enabled business platform.
             </p>
