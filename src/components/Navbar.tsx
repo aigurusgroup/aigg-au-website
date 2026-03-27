@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <Link to="/" className="flex items-center gap-3">
           <img src={logo} alt="AI Gurus" className="h-14" />
-          <span className="text-[10px] text-muted-foreground tracking-widest uppercase font-medium border-l border-border pl-3 self-center -mt-1">Australia</span>
+          <span className="text-[10px] text-muted-foreground tracking-widest uppercase font-medium border-l border-border pl-3 self-center mt-1">Australia</span>
         </Link>
 
         <div className="hidden lg:flex items-center gap-7">
