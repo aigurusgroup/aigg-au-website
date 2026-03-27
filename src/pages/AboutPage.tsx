@@ -56,7 +56,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-4 lg:px-8 max-w-3xl text-center">
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-white/50 mb-3">Long-Term Vision</p>
           <h2 className="text-2xl lg:text-3xl font-display font-bold tracking-tight mb-6 text-white">
-            Building a multi-vertical, AI-enabled services platform — starting in Queensland, scaling nationally.
+            Building a multi-vertical, AI-enabled services platform — scaling nationally.
           </h2>
           <p className="text-white/50 text-sm leading-relaxed">
             We see a future where Australia's best service businesses are connected through shared technology, shared services, and a shared commitment to excellence.
