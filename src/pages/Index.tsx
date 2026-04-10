@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import HomePlatform from "@/components/HomePlatform";
+import TrackRecord from "@/components/TrackRecord";
 import HowPlatformWorks from "@/components/HowPlatformWorks";
 import PlatformOverview from "@/components/PlatformOverview";
 import WhatWeDo from "@/components/WhatWeDo";
@@ -24,6 +25,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <HomePlatform />
+      <TrackRecord />
       <HowPlatformWorks />
       <PlatformOverview />
       <WhatWeDo />
