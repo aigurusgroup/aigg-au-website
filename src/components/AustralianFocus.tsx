@@ -8,9 +8,8 @@ const AustralianFocus = () => {
             Market Focus
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            AIGG Australia focuses on acquiring and scaling service businesses across key sectors,
-            applying AI-enabled systems and operational excellence to build lasting portfolio value
-            in the Australian market.
+            AI Gurus focuses on acquiring and scaling service businesses across key sectors,
+            applying AI-enabled systems and operational excellence to build lasting portfolio value.
           </p>
         </div>
       </div>
