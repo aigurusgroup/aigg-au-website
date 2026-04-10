@@ -20,7 +20,7 @@ const leaders = [
     title: "Founder & CTO",
     bio: "Technology expert with over 20 years of experience in software development, leading technical teams, and delivering enterprise solutions. Deep expertise in business intelligence, data warehousing, and AI-driven automation.",
     expertise: ["Enterprise Software Architecture", "AI & Business Intelligence", "Technical Leadership", "Data Engineering"],
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/geouffrey-erasmus-aa3a201/" as string | undefined,
   },
   {
     name: "Loretto Burke",
