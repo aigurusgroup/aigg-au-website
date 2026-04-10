@@ -20,7 +20,7 @@ const operators = [
     expertise: ["Strategy", "Operations", "M&A"],
     description:
       "Over 20 years across finance, operations, and business acquisitions spanning the UK and Australia. Deep expertise in buy-and-build execution and roll-up strategy.",
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/lee-robinson-9a769639/" as string | undefined,
   },
   {
     name: "Loretto Burke",
