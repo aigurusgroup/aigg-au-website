@@ -1,3 +1,5 @@
+import { Linkedin } from "lucide-react";
+
 const operators = [
   {
     name: "Chris Robinson",
@@ -11,28 +13,28 @@ const operators = [
     expertise: ["AI", "Engineering", "Data"],
     description:
       "Technology expert with 20+ years in enterprise software, AI-driven automation, and data engineering. Drives product innovation and technical excellence across platform infrastructure and delivery.",
-    linkedin: undefined,
+    linkedin: undefined as string | undefined,
   },
   {
     name: "Lee Robinson",
     expertise: ["Strategy", "Operations", "M&A"],
     description:
       "Over 20 years across finance, operations, and business acquisitions spanning the UK and Australia. Deep expertise in buy-and-build execution and roll-up strategy.",
-    linkedin: undefined,
+    linkedin: undefined as string | undefined,
   },
   {
     name: "Loretto Burke",
     expertise: ["Finance", "Governance", "Due Diligence"],
     description:
       "Finance executive with 20+ years establishing financial control, governance, and reporting across complex organisations. Ensures disciplined financial execution across the portfolio.",
-    linkedin: undefined,
+    linkedin: undefined as string | undefined,
   },
   {
     name: "Michael Bradley",
     expertise: ["Operations", "Strategy", "Acquisitions"],
     description:
       "Operator, investor, and business builder with 45+ years across construction, property services, and multi-model operations. Brings deep judgement to acquisition and scaling decisions.",
-    linkedin: undefined,
+    linkedin: undefined as string | undefined,
   },
 ];
 
@@ -74,9 +76,22 @@ const PlatformOperators = () => {
               key={op.name}
               className="border border-border bg-background p-8 flex flex-col"
             >
-              <h3 className="font-display font-bold text-lg tracking-tight mb-3">
-                {op.name}
-              </h3>
+              <div className="flex items-center gap-3 mb-3">
+                <h3 className="font-display font-bold text-lg tracking-tight">
+                  {op.name}
+                </h3>
+                {op.linkedin && (
+                  <a
+                    href={op.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[10px] font-medium tracking-wide uppercase text-primary hover:underline"
+                  >
+                    <Linkedin className="h-3.5 w-3.5" />
+                    Connect
+                  </a>
+                )}
+              </div>
               <div className="flex flex-wrap gap-2 mb-4">
                 {op.expertise.map((tag) => (
                   <span
@@ -90,16 +105,6 @@ const PlatformOperators = () => {
               <p className="text-muted-foreground text-sm leading-relaxed flex-1">
                 {op.description}
               </p>
-              {op.linkedin && (
-                <a
-                  href={op.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-5 text-xs font-medium tracking-wide uppercase text-primary hover:underline"
-                >
-                  LinkedIn →
-                </a>
-              )}
             </div>
           ))}
         </div>
