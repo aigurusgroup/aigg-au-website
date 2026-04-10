@@ -27,14 +27,14 @@ const operators = [
     expertise: ["Finance", "Governance", "Due Diligence"],
     description:
       "Finance executive with 20+ years establishing financial control, governance, and reporting across complex organisations. Ensures disciplined financial execution across the portfolio.",
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/loretto-burke-933693261/" as string | undefined,
   },
   {
     name: "Michael Bradley",
     expertise: ["Operations", "Strategy", "Acquisitions"],
     description:
       "Operator, investor, and business builder with 45+ years across construction, property services, and multi-model operations. Brings deep judgement to acquisition and scaling decisions.",
-    linkedin: "https://www.linkedin.com/in/loretto-burke-933693261/" as string | undefined,
+    linkedin: undefined as string | undefined,
   },
 ];
 
