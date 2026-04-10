@@ -27,7 +27,7 @@ const leaders = [
     title: "Co-Founder & Head of Finance",
     bio: "Finance executive with 20+ years' experience establishing financial control, governance, and reporting across complex organisations. Responsible for accounting, treasury, and financial governance across the portfolio.",
     expertise: ["Financial Control", "Due Diligence & Deal Support", "Treasury & Risk", "Statutory Reporting"],
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/loretto-burke-933693261/" as string | undefined,
   },
   {
     name: "Michael Bradley",
