@@ -12,7 +12,7 @@ const HeroSection = () => {
       />
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-3xl">
-          <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-6 animate-fade-in">
+          <p className="text-xs font-medium tracking-[0.3em] uppercase text-foreground/70 mb-6 animate-fade-in">
             Acquisitions · AI · Platform
           </p>
 
@@ -20,7 +20,7 @@ const HeroSection = () => {
             Acquiring Businesses Across Australia Using Flexible Deal Structures
           </h1>
 
-          <p className="text-lg text-muted-foreground max-w-2xl mb-10 animate-fade-in-up leading-relaxed" style={{ animationDelay: "0.1s" }}>
+          <p className="text-lg text-foreground/70 max-w-2xl mb-10 animate-fade-in-up leading-relaxed" style={{ animationDelay: "0.1s" }}>
             We acquire, operate, and scale service businesses using AI, operational excellence, and disciplined capital.
           </p>
 
