@@ -85,6 +85,12 @@ const PlatformPage = () => {
               </div>
             ))}
           </div>
+
+          <div className="mt-16 pt-12 border-t border-primary-foreground/10 text-center">
+            <p className="font-display text-xl lg:text-2xl font-bold tracking-tight text-primary-foreground">
+              "We don't sell AI — we use AI to build better businesses."
+            </p>
+          </div>
         </div>
       </section>
 
