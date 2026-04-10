@@ -64,6 +64,12 @@ const PlatformPage = () => {
               Every business that enters the platform benefits from centralised operations, AI-enabled systems, and the compounding advantages of portfolio scale. The result is a platform that creates more value than the sum of its parts.
             </p>
           </div>
+
+          <div className="mt-16 pt-12 border-t border-border text-center">
+            <p className="font-display text-xl lg:text-2xl font-bold tracking-tight text-foreground">
+              "We don't sell AI — we use AI to build better businesses."
+            </p>
+          </div>
         </div>
       </section>
 
