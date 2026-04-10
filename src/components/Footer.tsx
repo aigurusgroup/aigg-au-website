@@ -35,7 +35,7 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <span className="text-white/50 text-sm">National</span>
               <span className="text-white/50 text-sm">Australia</span>
-              <a href="mailto:info@aigg.com.au" className="text-white/50 hover:text-white text-sm transition-colors">info@aigg.com.au</a>
+              <a href="mailto:info@aigurusgroup.com.au" className="text-white/50 hover:text-white text-sm transition-colors">info@aigurusgroup.com.au</a>
             </div>
           </div>
         </div>
