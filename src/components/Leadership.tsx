@@ -6,7 +6,7 @@ const leaders = [
     title: "Founder & CEO — Australia",
     bio: "Lee brings over 20 years of experience across finance, operations, and business acquisitions. His career spans both the UK and Australia, with deep expertise in buy-and-build strategies. Prior to founding AIGG Australia, Lee gained significant exposure to roll-up execution, including experience with National Optical Care.",
     expertise: ["Finance & Operations", "Buy-and-Build Strategy", "M&A Execution", "Portfolio Management"],
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/lee-robinson-9a769639/" as string | undefined,
   },
   {
     name: "Chris Robinson",
