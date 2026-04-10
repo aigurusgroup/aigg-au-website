@@ -13,7 +13,7 @@ const operators = [
     expertise: ["AI", "Engineering", "Data"],
     description:
       "Technology expert with 20+ years in enterprise software, AI-driven automation, and data engineering. Drives product innovation and technical excellence across platform infrastructure and delivery.",
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/geouffrey-erasmus-aa3a201/" as string | undefined,
   },
   {
     name: "Lee Robinson",
