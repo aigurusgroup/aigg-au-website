@@ -44,7 +44,7 @@ const PerspectivesPage = () => {
       <section className="pt-28 pb-20 bg-card">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-2xl">
-            <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Perspectives</p>
+            <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Knowledge Centre</p>
             <h1 className="text-4xl lg:text-5xl font-display font-bold tracking-tight mb-6">Insights From the Platform</h1>
             <p className="text-muted-foreground leading-relaxed">
               Thought leadership and market commentary from operators, strategists, and technologists across the AIGG platform.

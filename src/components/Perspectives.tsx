@@ -38,7 +38,7 @@ const Perspectives = () => {
     <section className="py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-12">
-          <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Perspectives</p>
+          <p className="text-xs font-medium tracking-[0.3em] uppercase text-muted-foreground mb-3">Knowledge Centre</p>
           <h2 className="text-3xl lg:text-4xl font-display font-bold tracking-tight">Insights From the Platform</h2>
         </div>
 
