@@ -21,7 +21,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg text-foreground/70 max-w-2xl mb-10 animate-fade-in-up leading-relaxed" style={{ animationDelay: "0.1s" }}>
-            Partner-led acquisitions designed to scale your business while protecting your people, clients, and legacy.
+            Operator-led acquisitions designed to scale your business while protecting your people, clients, and legacy.
           </p>
 
           <div className="flex flex-wrap gap-3 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
