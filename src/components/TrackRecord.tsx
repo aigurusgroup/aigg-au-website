@@ -1,7 +1,7 @@
 import { CheckCircle, Award, Users, Cpu } from "lucide-react";
 
 const metrics = [
-  { value: "17+", label: "Transactions Led" },
+  { value: "25+", label: "Transactions Led" },
   { value: "$290M+", label: "Transaction Value Delivered" },
   { value: "20+", label: "Years Operator Experience" },
 ];
