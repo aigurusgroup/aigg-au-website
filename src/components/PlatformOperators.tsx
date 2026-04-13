@@ -34,7 +34,7 @@ const operators = [
     expertise: ["Operations", "Strategy", "Acquisitions"],
     description:
       "Operator, investor, and business builder with 45+ years across construction, property services, and multi-model operations. Brings deep judgement to acquisition and scaling decisions.",
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/michaeljbradley111" as string | undefined,
   },
 ];
 
