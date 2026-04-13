@@ -34,7 +34,7 @@ const leaders = [
     title: "Co-Founder & Director",
     bio: "Operator, investor, and business builder with a track record spanning more than 45 years across construction, home-improvement, and property services sectors.",
     expertise: ["Property Services", "Operator-Led Scaling", "Acquisition Judgement", "Multi-Model Operations"],
-    linkedin: undefined as string | undefined,
+    linkedin: "https://www.linkedin.com/in/michaeljbradley111" as string | undefined,
   },
 ];
 
