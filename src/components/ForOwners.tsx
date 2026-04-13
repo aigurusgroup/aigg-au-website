@@ -20,7 +20,7 @@ const ForOwners = () => {
               </li>
               <li className="flex items-center gap-3">
                 <span className="w-1 h-1 rounded-full bg-primary flex-shrink-0" />
-                Flexible deal structures — earnouts, partial exits, full exits
+                Flexible deal structures - earnouts, partial exits, full exits
               </li>
               <li className="flex items-center gap-3">
                 <span className="w-1 h-1 rounded-full bg-primary flex-shrink-0" />
