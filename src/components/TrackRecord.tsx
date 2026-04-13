@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, Award, Users, Cpu } from "lucide-react";
 
 const metrics = [
   { value: "17+", label: "Transactions Led" },
