@@ -36,9 +36,22 @@ const TrackRecord = () => (
         ))}
       </div>
 
+      <div className="grid sm:grid-cols-3 gap-px bg-border mb-px">
+        {[
+          { icon: Award, label: "Customer Service Awards" },
+          { icon: Users, label: "Investors in People" },
+          { icon: Cpu, label: "Best New Technology" },
+        ].map((a) => (
+          <div key={a.label} className="bg-background p-8 flex flex-col items-center text-center">
+            <a.icon className="text-primary mb-4" size={28} />
+            <p className="font-display font-bold text-sm tracking-tight">{a.label}</p>
+          </div>
+        ))}
+      </div>
+
       <div className="bg-background p-10 border border-border">
-        <p className="text-muted-foreground leading-relaxed max-w-3xl">
-          We combine hands-on operational experience with disciplined acquisition strategy—giving business owners confidence that their business is in the right hands.
+        <p className="text-muted-foreground leading-relaxed max-w-3xl italic">
+          "We combine hands-on operational experience with disciplined acquisition strategy - giving business owners confidence that their business is in the right hands."
         </p>
       </div>
 
