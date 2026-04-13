@@ -11,7 +11,7 @@ const ownerBenefits = [
   "We understand how to transition businesses without disruption",
   "Flexible deal structures tailored to your goals",
   "Protect your team, clients, and legacy",
-  "Stay involved or step back—your choice",
+  "Stay involved or step back - your choice",
 ];
 
 const TrackRecord = () => (
