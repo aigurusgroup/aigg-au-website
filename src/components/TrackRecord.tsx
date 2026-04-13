@@ -50,7 +50,7 @@ const TrackRecord = () => (
       </div>
 
       <div className="py-10 text-center">
-        <p className="text-foreground leading-relaxed max-w-3xl mx-auto italic text-lg">
+        <p className="text-foreground leading-relaxed max-w-3xl mx-auto italic text-lg font-bold">
           "We combine hands-on operational experience with disciplined acquisition strategy - giving business owners confidence that their business is in the right hands."
         </p>
       </div>
