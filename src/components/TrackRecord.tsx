@@ -7,7 +7,7 @@ const metrics = [
 ];
 
 const ownerBenefits = [
-  "You're partnering with experienced operators—not first-time buyers",
+  "You're partnering with experienced operators - not first-time buyers",
   "We understand how to transition businesses without disruption",
   "Flexible deal structures tailored to your goals",
   "Protect your team, clients, and legacy",
