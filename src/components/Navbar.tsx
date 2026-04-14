@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Sell Your Business", href: "/sell" },
   { label: "Investors", href: "/investors" },
   { label: "About", href: "/about" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 const Navbar = () => {

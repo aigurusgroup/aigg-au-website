@@ -11,6 +11,7 @@ import PlatformPage from "./pages/PlatformPage";
 import MarketsPage from "./pages/MarketsPage";
 import PerspectivesPage from "./pages/PerspectivesPage";
 import DealSourcesPage from "./pages/DealSourcesPage";
+import FAQPage from "./pages/FAQPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/markets" element={<MarketsPage />} />
           <Route path="/perspectives" element={<PerspectivesPage />} />
           <Route path="/deal-sources" element={<DealSourcesPage />} />
+          <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
