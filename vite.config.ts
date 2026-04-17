@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  base: '/aigg-au-website/',
+  base: basePath,
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
